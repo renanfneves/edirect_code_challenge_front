@@ -1,0 +1,35 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/react"
+  ],
+  "env": {
+    "web": {
+      "presets": ["env"]
+    }
+  },
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "src": "./src",
+          "actions": "./src/actions",
+          "api": "./src/api",
+          "assets": "./src/assets",
+          "base": "./src/basic",
+          "composed": "./src/composed",
+          "scenes": "./src/scenes",
+          "utils": "./src/utils",
+          "enums": "./src/enums",
+          "modules": "./src/modules",
+          "HOCs": "./src/HOCs",
+          "routes": "./src/routes",
+          "config": "./src/configs"
+        }
+      }
+    ]
+  ]
+}

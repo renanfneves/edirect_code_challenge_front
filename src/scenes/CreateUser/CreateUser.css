@@ -1,0 +1,25 @@
+.submit-button {
+  text-transform: uppercase;
+  background: #1890ff;
+  color: #fff;
+}
+
+.create-user-container {
+  padding-top: 200px;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.create-user-input {
+  margin-bottom: 10px;
+}
+
+.login-link {
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}

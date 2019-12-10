@@ -1,0 +1,25 @@
+.dashboard-content {
+  padding: 20px;
+}
+
+.new-project-card {
+  background: #d3d3d3;
+  padding: 0 20px;
+  border-radius: 4px;
+}
+
+.project-submit-button {
+  background: #1890ff;
+  color: #fff;
+}
+
+.user-menu {
+  cursor: pointer;
+}
+
+.drop-down {
+  padding: 15px;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+}

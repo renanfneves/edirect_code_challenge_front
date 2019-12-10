@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+
+h1, h2 {
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 9px;
+  border-radius: 6px;
+  cursor: pointer;
+}

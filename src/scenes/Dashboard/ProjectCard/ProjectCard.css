@@ -1,0 +1,19 @@
+.card-container {
+  margin-bottom: 20px;
+}
+
+.action-button {
+  cursor: pointer;
+}
+
+.task-submit-button {
+  background:#32CD32;
+}
+
+.task {
+  margin-bottom: 10px;
+}
+
+.task-type {
+  font-weight: 700;
+}
